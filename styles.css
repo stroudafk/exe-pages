@@ -1,0 +1,104 @@
+body {
+  /* font-family: Georgia, serif; */
+  font-family: Garamond, serif;
+  background-color: rgb(30, 30, 46); /*plum*/
+  color: rgb(203, 166, 247);
+}
+
+a {
+  color: rgb(235, 188, 186);
+}
+
+a:visited {
+  color: rgb(49, 117, 143);
+}
+
+.tab a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.tab{
+  text-align: right;
+  padding-right: 10px;
+  color: rgb(203, 166, 247);
+
+  transition: all 0.4s;
+}
+
+.tab:hover {
+  color: rgb(172, 109, 247);
+  cursor: pointer;
+  background-color: rgb(24, 24, 37);
+
+  transition: all 0.4s;
+}
+
+#description {
+  padding-left: 10px;
+  text-align: center;
+}
+
+#header {
+  text-align: center;
+}
+
+#left-pane {
+  width: 25%;
+  height: auto;
+  float: left;
+}
+#middle-pane {
+  width: 50%;
+  height: auto;
+  float: left;
+}
+
+#right-pane {
+  width: 25%;
+  height: auto;
+  float: left;
+}
+
+#logos {
+  display: flex;
+  width: 100%;
+  padding-top: 200px;
+  justify-content: center;
+  align-items: center;
+}
+#logos a{
+  text-decoration: none;
+  justify-content: center;
+}
+
+.year-link {
+  width: 100%;
+}
+
+.organization {
+  float: left;
+  width: 50%;
+}
+.date-range {
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+.role {
+  float: left;
+  width: 50%;
+}
+.location{
+  float: right;
+  width: 50%;
+  text-align: right;
+}
+
+.resume-entry {
+  color: rgb(24, 24, 37);
+  background-color: aliceblue;
+  background-color: rgb(24, 24, 37);
+  background-color: rgb(225, 225, 241);
+  border-radius: 10px;
+}
